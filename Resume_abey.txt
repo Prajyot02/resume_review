@@ -220,7 +220,7 @@
     \resumeSubHeadingListStart
     
       \resumeProjectHeading
-          {\href{https://github.com/prajyot-pawar/news_classification_app.git}{\textbf{\large{News Classifier Application}}} $|$ \large{Flutter, Flask, API, Machine Learning}}{May 2022}
+          {\href{}{\textbf{\large{News Classifier Application}}} $|$ \large{Flutter, Flask, API, Machine Learning}}{May 2022}
           \resumeItemListStart
             \resumeItem{\normalsize{Built a \textbf{mobile News application} based on \textbf{flutter} which classifies news }}
             \resumeItem{\normalsize{Used \textbf{News-REST API} to fetch news details }}
@@ -243,7 +243,7 @@
           
           
           \resumeProjectHeading
-          {\href{https://github.com/Prajyot02/cclproject353852.git}{\textbf{\large{Vehicle Management Website}}} $|$ \large{HTML, CSS, JavaScript, django }}{June 2021}
+          {\href{}{\textbf{\large{Vehicle Management Website}}} $|$ \large{HTML, CSS, JavaScript, django }}{June 2021}
           \resumeItemListStart
             \resumeItem{\normalsize{Built a mechanic-centred \textbf{scheduling website} which does allotment of time-slots to customer based on \textbf{ Django }queries}}
             \resumeItem{\normalsize{ It provides features like \textbf{dashboard }for mechanic,admin and customer along with \textbf{authentication} for all users}}
