@@ -153,7 +153,6 @@
     \href{https://www.linkedin.com/in/prajyot-pawar/}{\raisebox{-0.2\height}\faLinkedinSquare\ \underline{prajyot-pawar}}  ~
     \href{https://github.com/prajyot-pawar}{\raisebox{-0.2\height}\faGithub\ \underline{prajyot-pawar}} ~
     \href{https://unstop.com/u/prajyot-pawar}{\raisebox{-0.2\height}\faExternalLink\ \underline{prajyot-pawar}} 
-    \vspace{-8pt}
 \end{center}
 
 
@@ -180,26 +179,19 @@
   
 %-----------PROGRAMMING SKILLS-----------
 \section{TECHNICAL SKILLS}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{\normalsize{Languages:}}{ \normalsize{ C++, Dart, Python, JavaScript, Golang, SQL, NoSQL }} \\
-     \textbf{\normalsize{Developer Tools:}}{ \normalsize{VS Code, Android Studio, Goland, Docker, Jupyter Notebook}} \\
-     \textbf{\normalsize{Technologies/Frameworks:}}{\normalsize{ Flutter, Flask, Firebase, Hyperledger-Fabric, GitHub, Git }} \\
-    }}
- \end{itemize}
-
-
-
-\begin{table}[h!]
-  \begin{left}
-    \begin{tabular}{l  r} % <-- Alignments: 1st column left, 2nd middle and 3rd right, with vertical lines in 
-      \hline
-      Languages: & C++, Dart, Python, JavaScript, Golang, SQL, NoSQL\\
-      Developer Tools: & VS Code, Android Studio, Goland, Docker, Jupyter Notebook\\
-      Technologies/Frameworks: & Flutter, Flask, Firebase, Hyperledger-Fabric, GitHub, Git\\
+\vspace{-13pt}
+\begin{table}[left margin=0.15in, label={}, h!] 
+    \begin{tabular}{l  l} % <-- Alignments: 1st column left, 2nd middle and 3rd right, with vertical lines in 
+     \textbf{Languages} & : C++, Dart, Python, JavaScript, Golang, SQL, NoSQL\\
+      \textbf{Developer Tools} & : VS Code, Android Studio, Docker, Jupyter Notebook\\
+      \textbf{Technologies/Frameworks }   & : Flutter, Flask, Firebase, Hyperledger-Fabric, GitHub, Git\\
     \end{tabular}
-  \end{left}
+
 \end{table}
+\vspace{-13pt}
+
+
+
 
 
 
@@ -228,22 +220,22 @@
     \resumeSubHeadingListStart
     
       \resumeProjectHeading
-          {\href{https://github.com/prajyot-pawar/news_classification_app.git}{\textbf{\large{News Classifier Application}} } $|$ \large{Flutter, Flask, API, Machine Learning}}{May 2022}
+          {\href{https://github.com/prajyot-pawar/news_classification_app.git}{\textbf{\large{News Classifier Application}}} $|$ \large{Flutter, Flask, API, Machine Learning}}{May 2022}
           \resumeItemListStart
-            \resumeItem{\normalsize{Built \textbf{mobile News application} based on \textbf{flutter} which classifies news }}
-            \resumeItem{\normalsize{Used \textbf{News-REST API} to get news }}
-            \resumeItem{\normalsize{Used \textbf{Flask} to deploy \textbf{Machine Learning model} output}}
+            \resumeItem{\normalsize{Built a \textbf{mobile News application} based on \textbf{flutter} which classifies news }}
+            \resumeItem{\normalsize{Used \textbf{News-REST API} to fetch news details }}
+            \resumeItem{\normalsize{Used \textbf{Flask} to deploy \textbf{Machine Learning model}}}
             \resumeItem{\textcolor{accent} {\href{https://github.com/prajyot-pawar/news_classification_app.git} {\underline{\normalsize{GitHub repo}}}}}
           \resumeItemListEnd
           \vspace{-13pt}
 
     
        \resumeProjectHeading
-          {\href{https://github.com/prashantnane/VideoChatApp.git}{\textbf{\large{ChatWalk}} } $|$ \large{Flutter, Firebase }}{Nov 2021}
+          {\href{}{\textbf{\large{ChatWalk}}} $|$ \large{Flutter, Firebase }}{Nov 2021}
           \resumeItemListStart
-            \resumeItem{\normalsize{Built real-time video and audio chat  \textbf{mobile application} based on \textbf{Flutter}}}
+            \resumeItem{\normalsize{Built a real-time video and audio chat  \textbf{mobile application} based on \textbf{Flutter}}}
             \resumeItem{\normalsize{Implementation of \textbf{Firebase} for back-end services }}
-            \resumeItem{\normalsize{Implementation of \textbf{SQLite} for back-end services like storing account information and chat logs in encrypted format}}
+            \resumeItem{\normalsize{Implementation of \textbf{SQLite} as a database for storing account information and chat logs in encrypted format}}
             \resumeItem{\normalsize{Authentication of Accounts with \textbf{Firebase authentication}}}
             \resumeItem{\textcolor{accent} {\href{https://github.com/prashantnane/VideoChatApp.git} {\underline{\normalsize{GitHub repo}}}}}
           \resumeItemListEnd 
@@ -251,14 +243,13 @@
           
           
           \resumeProjectHeading
-          {\href{https://github.com/Prajyot02/cclproject353852.git}{\textbf{\large{Vehicle Management Website}} } $|$ \large{HTML, CSS, JAVASCRIPT, DJANGO }}{June 2021}
+          {\href{https://github.com/Prajyot02/cclproject353852.git}{\textbf{\large{Vehicle Management Website}}} $|$ \large{HTML, CSS, JavaScript, django }}{June 2021}
           \resumeItemListStart
-            \resumeItem{\normalsize{Built mechanic-centred \textbf{scheduling website} which does allotment of time-slots to customer based on \textbf{ Django }queries}}
-            \resumeItem{\normalsize{ It provides features like dashboard for mechanic,admin and Customer along with \textbf{authentication} for all users}}
+            \resumeItem{\normalsize{Built a mechanic-centred \textbf{scheduling website} which does allotment of time-slots to customer based on \textbf{ Django }queries}}
+            \resumeItem{\normalsize{ It provides features like \textbf{dashboard }for mechanic,admin and customer along with \textbf{authentication} for all users}}
 \resumeItem{\textcolor{accent} {\href{https://github.com/Prajyot02/cclproject353852.git} {\underline{\normalsize{GitHub repo}}}}}
             
           \resumeItemListEnd 
-          \vspace{-13pt}
 %           \resumeProjectHeading
 %           {\href{https://github.com/Prajyot02/cclproject353852.git}{\textbf{\large{Mahabhoomi: Land Registry based on Blockchain}} } $|$ \large{ReactJS, HyperLedger }}{ongoing}
 %           \resumeItemListStart
@@ -313,12 +304,13 @@
  
  %-----------CERTIFICATIONS---------------
 \section{CERTIFICATIONS}
-
+          \vspace{5pt}
  \resumeItemListStart
 \resumeItem{\textcolor{accent} {\href{https://coursera.org/share/7e9ce5c984fecfa6007596e477f76038} {\underline{\normalsize{Foundations: Data, Data, Everywhere Google}}}}}
 \resumeItem{\textcolor{accent} {\href{https://verify.mygreatlearning.com/verify/PCWKMBEN} {\underline{\normalsize{Deep Learning with Python}}}}}
-\resumeItem{\textcolor{accent} {\href{https://www.udemy.com/course/building-blockchain-applications-using-ethereum-hyperledger-fabric} {\underline{\normalsize{Python for Data Science}}}}}
-\resumeItem{\textcolor{accent} {\href{https://coursera.org/share/7e9ce5c984fecfa6007596e477f76038} {\underline{Building Block-chain apps using \textbf{Ethereum} 
+% \resumeItem{\textcolor{accent} {\href{https://www.udemy.com/course/building-blockchain-applications-using-ethereum-hyperledger-fabric} {\underline{\normalsize{Python for Data Science}}}}}
+\resumeItem{\textcolor{accent} {\href{https://www.linkedin.com/learning/certificates/78a1df5e6b3cde541bc2f7dec0bc50ab4d9415a4eca9288082dfb67d4c8b69f5} {\underline{\normalsize{Building RESTful APIs with Node.js and Express}}}}}
+\resumeItem{\textcolor{accent} {\href{} {\underline{Building Block-chain apps using \textbf{Ethereum} 
 \& \textbf{Hyper-ledger Fabric}}}
 }}
             
