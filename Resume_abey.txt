@@ -187,7 +187,19 @@
      \textbf{\normalsize{Technologies/Frameworks:}}{\normalsize{ Flutter, Flask, Firebase, Hyperledger-Fabric, GitHub, Git }} \\
     }}
  \end{itemize}
- \vspace{-15pt}
+
+
+
+\begin{table}[h!]
+  \begin{left}
+    \begin{tabular}{l  r} % <-- Alignments: 1st column left, 2nd middle and 3rd right, with vertical lines in 
+      \hline
+      Languages: & C++, Dart, Python, JavaScript, Golang, SQL, NoSQL\\
+      Developer Tools: & VS Code, Android Studio, Goland, Docker, Jupyter Notebook\\
+      Technologies/Frameworks: & Flutter, Flask, Firebase, Hyperledger-Fabric, GitHub, Git\\
+    \end{tabular}
+  \end{left}
+\end{table}
 
 
 
@@ -206,7 +218,6 @@
                 
             \end{itemize}
         \end{multicols}
-        \vspace*{2.0\multicolsep}
     %\resumeSubHeadingListEnd
 
 
@@ -247,20 +258,20 @@
 \resumeItem{\textcolor{accent} {\href{https://github.com/Prajyot02/cclproject353852.git} {\underline{\normalsize{GitHub repo}}}}}
             
           \resumeItemListEnd 
-
-          \resumeProjectHeading
-          {\href{https://github.com/Prajyot02/cclproject353852.git}{\textbf{\large{Mahabhoomi: Land Registry based on Blockchain}} } $|$ \large{ReactJS, HyperLedger }}{ongoing}
-          \resumeItemListStart
-            \resumeItem{\normalsize{Blockchain based webapp which verify land registry records of current system and register valid entries into blockchain}}
-            \resumeItem{\normalsize{ Hyperledger-endorsers validates registry transactions between desired buyers and sellers of land }}
-            \resumeItem{\normalsize{ Whole information of registry used for calculating property TAX for respective owner}}
-\resumeItem{\textcolor{accent} {\href{https://github.com/Prajyot02/cclproject353852.git} {\underline{\normalsize{GitHub repo}}}}}
+          \vspace{-13pt}
+%           \resumeProjectHeading
+%           {\href{https://github.com/Prajyot02/cclproject353852.git}{\textbf{\large{Mahabhoomi: Land Registry based on Blockchain}} } $|$ \large{ReactJS, HyperLedger }}{ongoing}
+%           \resumeItemListStart
+%             \resumeItem{\normalsize{Blockchain based webapp which verify land registry records of current system and register valid entries into blockchain}}
+%             \resumeItem{\normalsize{ Hyperledger-endorsers validates registry transactions between desired buyers and sellers of land }}
+%             \resumeItem{\normalsize{ Whole information of registry used for calculating property TAX for respective owner}}
+% \resumeItem{\textcolor{accent} {\href{https://github.com/Prajyot02/cclproject353852.git} {\underline{\normalsize{GitHub repo}}}}}
             
-          \resumeItemListEnd 
+%           \resumeItemListEnd 
           
     \resumeSubHeadingListEnd
-\vspace{-12pt}
 
+          \vspace{-1pt}
 %
 
 
@@ -295,7 +306,7 @@
  \resumeItem{\textcolor{accent} {\href{https://unstop.com/simulation/stage-2-solve-the-hr-case-11003} {{\normalsize{Appeared for \textbf{HACK TO HIRE} Scholarship Challenge and secured \textbf{21st} Rank among \textbf{1500+ candidates} }}}}}
 \resumeItem{\textcolor{accent} {\href{https://unstop.com/certificate-preview/b6eb60de-72bc-4b6a-a9b4-20e7985ef21a} {{\normalsize{Participated in \textbf{Flipkart GRiD 4.0} along with \textbf{team of 4 people}}}}}}
             
-          \resumeItemListEnd 
+\resumeItemListEnd 
 
 
 
