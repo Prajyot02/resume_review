@@ -147,12 +147,12 @@
 
 
 \begin{center}
-    {\Huge \scshape Prajyot Pawar} \\ \vspace{1pt}
+    {\Huge \scshape Prajyot Pawar} \\ \vspace{4pt}
     % Mumbai,Maharashtra \\ \vspace{1pt}
-    \small \href{tel:+xxxxxxxxxxxx}{ \raisebox{-0.1\height}\faPhone\ \underline{+91-7710887393} ~} \href{mailto:prajyotp.dev@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{prajyotp.dev}} ~ 
-    \href{https://www.linkedin.com/in/prajyot-pawar/}{\raisebox{-0.2\height}\faLinkedinSquare\ \underline{prajyot-pawar}}  ~
-    \href{https://github.com/prajyot-pawar}{\raisebox{-0.2\height}\faGithub\ \underline{prajyot-pawar}} ~
-    \href{https://unstop.com/u/prajyot-pawar}{\raisebox{-0.2\height}\faExternalLink\ \underline{prajyot-pawar}} 
+    \small \href{tel:+917710887393}{ \raisebox{-0.1\height}\faPhone\ \underline{+91-7710887393} ~} \href{mailto:prajyotp.dev@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{prajyotp.dev}} ~ 
+    \href{https://prajyotpawar.me}{\raisebox{-0.2\height}\faExternalLink\ \underline{prajyot-pawar}} ~
+    \href{https://www.linkedin.com/in/prajyot-pawar/}{\raisebox{-0.2\height}\faLinkedinSquare\ \underline{prajyot-pawar}}  ~  
+    \href{https://github.com/prajyot-pawar}{\raisebox{-0.2\height}\faGithub\ \underline{prajyot-pawar}}
 \end{center}
 
 
@@ -161,7 +161,7 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {Smt. Indira Gandhi College of Engineering}{Aug 2019 -- June 2023}
-      {B.E. Computer Engineering - \textbf{CGPA} - \textbf{8.2}}{Navi Mumbai, India}
+      {B.E. Computer Engineering - \textbf{CGPA} - \textbf{8.0}}{Navi Mumbai, India}
       \resumeSubheading
       {Ramniranjan Jhunjhunwala College of Science(HSC)}{Aug 2017 -- May 2019}
       {Junior College  - \textbf{Percentage} - \textbf{70.15}}{Mumbai, India}
@@ -173,22 +173,22 @@
   %     {College Name}{MM YYYY -- MM YYYY}
   %     {Exam Name - Course Name  - \textbf{Percentage} - \textbf{xx\%}}{city, country}
   % \resumeSubHeadingListEnd.
-
+\vspace{-8pt}
 
 
   
 %-----------PROGRAMMING SKILLS-----------
 \section{TECHNICAL SKILLS}
-\vspace{-13pt}
-\begin{table}[left margin=0.15in, label={}, h!] 
+\vspace{-8pt}
+\begin{table}[h]
     \begin{tabular}{l  l} % <-- Alignments: 1st column left, 2nd middle and 3rd right, with vertical lines in 
-     \textbf{Languages} & : C++, Dart, Python, JavaScript, Golang, SQL, NoSQL\\
-      \textbf{Developer Tools} & : VS Code, Android Studio, Docker, Jupyter Notebook\\
-      \textbf{Technologies/Frameworks }   & : Flutter, Flask, Firebase, Hyperledger-Fabric, GitHub, Git\\
+     \textbf{Languages} & : Dart, C++ , Python, JavaScript , Golang, SQL , HTML, CSS \\
+      \textbf{Developer Tools} & : VS Code, Android Studio, Jupyter Notebook , Figma\\
+      \textbf{Technologies/Frameworks }   & : Flutter, Flask, Firebase, ReactJS, GitHub, Git\\
     \end{tabular}
 
 \end{table}
-\vspace{-13pt}
+\vspace{-5pt}
 
 
 
@@ -204,52 +204,54 @@
                 \item Web Development
                 \item Data Structures \& Algorithms
                 \item Block-chain
-                \item Artificial Intelligence
-                \item OOPS Concept      
-                \item Hyper-Ledger
-                
+                \item OOPS Concepts
+                \item MERN     
+                \item Web Design                   
             \end{itemize}
         \end{multicols}
     %\resumeSubHeadingListEnd
+
+\vspace{5pt}
 
 
 
 %-----------PROJECTS-----------
 \section{PROJECTS}
-    \vspace{-5pt}
     \resumeSubHeadingListStart
-    
-      \resumeProjectHeading
-          {\href{}{\textbf{\large{News Classifier Application}}} $|$ \large{Flutter, Flask, API, Machine Learning}}{May 2022}
+      \vspace{3pt}    
+    \resumeProjectHeading
+          {\href{}{\textbf{\large{Mahabhoomi}}} $|$ \large{Flutter, Blockchain, Solidity, Polygon Network }}{May 2023}
           \resumeItemListStart
-            \resumeItem{\normalsize{Built a \textbf{mobile News application} based on \textbf{flutter} which classifies news }}
-            \resumeItem{\normalsize{Used \textbf{News-REST API} to fetch news details }}
-            \resumeItem{\normalsize{Used \textbf{Flask} to deploy \textbf{Machine Learning model}}}
-            \resumeItem{\textcolor{accent} {\href{https://github.com/prajyot-pawar/news_classification_app.git} {\underline{\normalsize{GitHub repo}}}}}
-          \resumeItemListEnd
-          \vspace{-13pt}
-
-    
+            \resumeItem{\normalsize{Developed a web application called \textbf{Mahabhoomi} which provides a solution for land registry system based on \textbf{blockchain technology}.}}
+            \resumeItem{\normalsize{The web application provides a \textbf{user-friendly interface} to allow users to \textbf{buy, sell, and transfer property} using cryptocurrency and view the property details with transparency.}}
+             \resumeItem{\normalsize{The block-chain technology ensures that the data is \textbf{secure and tamper-proof}, providing a robust system for \textbf{land registration and management}.}}
+            \resumeItem{\normalsize{ Implemented the smart contract in Solidity and deployed it on the Polygon network.}}
+\resumeItem{\textcolor{accent} {\href{https://github.com/Prajyot02/Mahabhoomi.git} {\underline{\normalsize{GitHub}}}}}        
+          \resumeItemListEnd           
+      \vspace{-10pt}        
+      
+      % \resumeProjectHeading
+      %     {\href{}{\textbf{\large{News Classifier Application}}} $|$ \large{Flutter, Flask, API, Machine Learning}}{May 2022}
+      %     \resumeItemListStart
+      %       \resumeItem{\normalsize{Built a \textbf{mobile News application} based on \textbf{flutter} which classifies news }}
+      %       \resumeItem{\normalsize{Used \textbf{News-REST API} to fetch news details }}
+      %       \resumeItem{\normalsize{Used \textbf{Flask} to deploy \textbf{Machine Learning model}}}
+      %       \resumeItem{\textcolor{accent} {\href{https://github.com/prajyot-pawar/news_classification_app.git} {\underline{\normalsize{GitHub }}}}}
+      %     \resumeItemListEnd         \vspace{2pt}    
+          % \vspace{2pt}    
        \resumeProjectHeading
-          {\href{}{\textbf{\large{ChatWalk}}} $|$ \large{Flutter, Firebase }}{Nov 2021}
+          {\href{}{\textbf{\large{ChatWalk}}} $|$ \large{Flutter, Firebase , Agora }}{Nov 2021}
           \resumeItemListStart
             \resumeItem{\normalsize{Built a real-time video and audio chat  \textbf{mobile application} based on \textbf{Flutter}}}
             \resumeItem{\normalsize{Implementation of \textbf{Firebase} for back-end services }}
             \resumeItem{\normalsize{Implementation of \textbf{SQLite} as a database for storing account information and chat logs in encrypted format}}
             \resumeItem{\normalsize{Authentication of Accounts with \textbf{Firebase authentication}}}
-            \resumeItem{\textcolor{accent} {\href{https://github.com/prashantnane/VideoChatApp.git} {\underline{\normalsize{GitHub repo}}}}}
+            \resumeItem{\textcolor{accent} {\href{https://github.com/prajyot-pawar/Chatwalk/tree/master} {\underline{\normalsize{GitHub }}}}}
           \resumeItemListEnd 
-          \vspace{-13pt}
+          \vspace{4pt}
           
           
-          \resumeProjectHeading
-          {\href{}{\textbf{\large{Vehicle Management Website}}} $|$ \large{HTML, CSS, JavaScript, django }}{June 2021}
-          \resumeItemListStart
-            \resumeItem{\normalsize{Built a mechanic-centred \textbf{scheduling website} which does allotment of time-slots to customer based on \textbf{ Django }queries}}
-            \resumeItem{\normalsize{ It provides features like \textbf{dashboard }for mechanic,admin and customer along with \textbf{authentication} for all users}}
-\resumeItem{\textcolor{accent} {\href{https://github.com/Prajyot02/cclproject353852.git} {\underline{\normalsize{GitHub repo}}}}}
-            
-          \resumeItemListEnd 
+       
 %           \resumeProjectHeading
 %           {\href{https://github.com/Prajyot02/cclproject353852.git}{\textbf{\large{Mahabhoomi: Land Registry based on Blockchain}} } $|$ \large{ReactJS, HyperLedger }}{ongoing}
 %           \resumeItemListStart
@@ -262,7 +264,7 @@
           
     \resumeSubHeadingListEnd
 
-          \vspace{-1pt}
+          \vspace{-3pt}
 %
 
 
@@ -290,6 +292,25 @@
 %     \resumeSubHeadingListEnd
 %  \vspace{-11pt}
 
+ %-----------Experience---------------
+\section{EXPERIENCE}
+\resumeSubHeadingListStart
+      \vspace{1pt}    
+    \resumeProjectHeading
+          {{\textbf{\large{HisWill}}} $|$ \large{Flutter, Realtime Database (Firebase) }}{June 2023}
+          \resumeItemListStart
+            \resumeItem{\normalsize{ Developed a contest and quiz module with an immersive UI for the \textbf{HisWill} app.}}
+            \resumeItem{\normalsize{Enabled users to participate in contests and stored result data in a Realtime Firebase database.}}
+             \resumeItem{\normalsize{ Optimized data fetching for current contests and quizzes, minimizing loading time.}}
+            \resumeItem{\normalsize{ Implemented a fair grading system to ensure accurate evaluation of quiz results.}}
+\resumeItem{\textcolor{accent} {\href{https://play.google.com/store/apps/details?id=com.Meditation.meditation_app} {\underline{\normalsize{Google Play Store}}}}}        
+          \resumeItemListEnd   
+    \resumeSubHeadingListEnd
+        
+      \vspace{-2pt}        
+
+
+ 
  %-----------Acheivements---------------
 \section{ACHIEVEMENTS}
 
