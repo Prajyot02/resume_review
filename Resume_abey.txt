@@ -124,6 +124,15 @@
     \end{tabular*}\vspace{-7pt}
 }
 
+
+\newcommand{\resumeExperienceHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\      
+      \vspace{-5pt}    
+      \small
+    \end{tabular*}\vspace{-7pt}
+}
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
 
 \renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
@@ -147,10 +156,10 @@
 
 
 \begin{center}
-    {\Huge \scshape Prajyot Pawar} \\ \vspace{4pt}
+    {\Huge \scshape Prajyot Pawar} \\ \vspace{6pt}
     % Mumbai,Maharashtra \\ \vspace{1pt}
     \small \href{tel:+917710887393}{ \raisebox{-0.1\height}\faPhone\ \underline{+91-7710887393} ~} \href{mailto:prajyotp.dev@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{prajyotp.dev}} ~ 
-    \href{https://prajyotpawar.me}{\raisebox{-0.2\height}\faExternalLink\ \underline{prajyot-pawar}} ~
+    \href{https://prajyotpawar.me}{\raisebox{-0.2\height}\faUser ~ \underline{prajyot-pawar}} ~
     \href{https://www.linkedin.com/in/prajyot-pawar/}{\raisebox{-0.2\height}\faLinkedinSquare\ \underline{prajyot-pawar}}  ~  
     \href{https://github.com/prajyot-pawar}{\raisebox{-0.2\height}\faGithub\ \underline{prajyot-pawar}}
 \end{center}
@@ -214,11 +223,32 @@
 \vspace{5pt}
 
 
+ %-----------Experience---------------
+\section{EXPERIENCE}
+\resumeSubHeadingListStart
+      \vspace{2pt}    
+      
+    \resumeExperienceHeading
+          {{\textbf{\large{HisWill}}} $|$ \large{Flutter, Realtime Database (Firebase) }}{June 2023} \textbf{ {Freelance Android Developer}}
+      \vspace{1pt}    
+          % {\textbf{\large{Freelance Android Developer}}} 
+          \resumeItemListStart
+            \resumeItem{\normalsize{ Developed a contest and quiz module with an immersive UI for the \textbf{HisWill} app.}}
+            \resumeItem{\normalsize{Enabled users to participate in contests and stored result data in a Realtime Firebase database.}}
+             \resumeItem{\normalsize{ Optimized data fetching for current contests and quizzes, minimizing loading time.}}
+            \resumeItem{\normalsize{ Implemented a fair grading system to ensure accurate evaluation of quiz results.}}
+\resumeItem{\textcolor{accent} {\href{https://play.google.com/store/apps/details?id=com.Meditation.meditation_app} {\underline{\normalsize{Google Play Store}}}}}        
+          \resumeItemListEnd   
+    \resumeSubHeadingListEnd
+        
+      \vspace{-2pt}        
+
+
 
 %-----------PROJECTS-----------
 \section{PROJECTS}
+      \vspace{1pt}    
     \resumeSubHeadingListStart
-      \vspace{3pt}    
     \resumeProjectHeading
           {\href{}{\textbf{\large{Mahabhoomi}}} $|$ \large{Flutter, Blockchain, Solidity, Polygon Network }}{May 2023}
           \resumeItemListStart
@@ -292,24 +322,6 @@
 %     \resumeSubHeadingListEnd
 %  \vspace{-11pt}
 
- %-----------Experience---------------
-\section{EXPERIENCE}
-\resumeSubHeadingListStart
-      \vspace{1pt}    
-    \resumeProjectHeading
-          {{\textbf{\large{HisWill}}} $|$ \large{Flutter, Realtime Database (Firebase) }}{June 2023}
-          \resumeItemListStart
-            \resumeItem{\normalsize{ Developed a contest and quiz module with an immersive UI for the \textbf{HisWill} app.}}
-            \resumeItem{\normalsize{Enabled users to participate in contests and stored result data in a Realtime Firebase database.}}
-             \resumeItem{\normalsize{ Optimized data fetching for current contests and quizzes, minimizing loading time.}}
-            \resumeItem{\normalsize{ Implemented a fair grading system to ensure accurate evaluation of quiz results.}}
-\resumeItem{\textcolor{accent} {\href{https://play.google.com/store/apps/details?id=com.Meditation.meditation_app} {\underline{\normalsize{Google Play Store}}}}}        
-          \resumeItemListEnd   
-    \resumeSubHeadingListEnd
-        
-      \vspace{-2pt}        
-
-
  
  %-----------Acheivements---------------
 \section{ACHIEVEMENTS}
@@ -319,23 +331,20 @@
 \resumeItem{\textcolor{accent} {\href{https://unstop.com/certificate-preview/b6eb60de-72bc-4b6a-a9b4-20e7985ef21a} {{\normalsize{Participated in \textbf{Flipkart GRiD 4.0} along with \textbf{team of 4 people}}}}}}
             
 \resumeItemListEnd 
-
-
-
  
  %-----------CERTIFICATIONS---------------
-\section{CERTIFICATIONS}
-          \vspace{5pt}
- \resumeItemListStart
-\resumeItem{\textcolor{accent} {\href{https://coursera.org/share/7e9ce5c984fecfa6007596e477f76038} {\underline{\normalsize{Foundations: Data, Data, Everywhere Google}}}}}
-\resumeItem{\textcolor{accent} {\href{https://verify.mygreatlearning.com/verify/PCWKMBEN} {\underline{\normalsize{Deep Learning with Python}}}}}
-% \resumeItem{\textcolor{accent} {\href{https://www.udemy.com/course/building-blockchain-applications-using-ethereum-hyperledger-fabric} {\underline{\normalsize{Python for Data Science}}}}}
-\resumeItem{\textcolor{accent} {\href{https://www.linkedin.com/learning/certificates/78a1df5e6b3cde541bc2f7dec0bc50ab4d9415a4eca9288082dfb67d4c8b69f5} {\underline{\normalsize{Building RESTful APIs with Node.js and Express}}}}}
-\resumeItem{\textcolor{accent} {\href{} {\underline{Building Block-chain apps using \textbf{Ethereum} 
-\& \textbf{Hyper-ledger Fabric}}}
-}}
+% \section{CERTIFICATIONS}
+%           \vspace{5pt}
+%  \resumeItemListStart
+% \resumeItem{\textcolor{accent} {\href{https://coursera.org/share/7e9ce5c984fecfa6007596e477f76038} {\underline{\normalsize{Foundations: Data, Data, Everywhere Google}}}}}
+% \resumeItem{\textcolor{accent} {\href{https://verify.mygreatlearning.com/verify/PCWKMBEN} {\underline{\normalsize{Deep Learning with Python}}}}}
+% % \resumeItem{\textcolor{accent} {\href{https://www.udemy.com/course/building-blockchain-applications-using-ethereum-hyperledger-fabric} {\underline{\normalsize{Python for Data Science}}}}}
+% \resumeItem{\textcolor{accent} {\href{https://www.linkedin.com/learning/certificates/78a1df5e6b3cde541bc2f7dec0bc50ab4d9415a4eca9288082dfb67d4c8b69f5} {\underline{\normalsize{Building RESTful APIs with Node.js and Express}}}}}
+% \resumeItem{\textcolor{accent} {\href{} {\underline{Building Block-chain apps using \textbf{Ethereum} 
+% \& \textbf{Hyper-ledger Fabric}}}
+% }}
             
-          \resumeItemListEnd 
+%           \resumeItemListEnd 
 
 
 
